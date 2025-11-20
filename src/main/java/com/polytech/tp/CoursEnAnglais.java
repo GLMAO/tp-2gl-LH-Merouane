@@ -1,13 +1,13 @@
 package com.polytech.tp;
 
-public class CoursEnLigne extends CoursDecorator {
+public class CoursEnAnglais extends CoursDecorator {
 
-    public CoursEnLigne(ICours cours) {
+    public CoursEnAnglais(ICours cours) {
         super(cours);
     }
-   
+
     public String getDescription() {
-        return super.getDescription() + " (En ligne)";
+        return super.getDescription() + " (en Anglais)";
     }
 
     public double getDuree() {

@@ -1,13 +1,13 @@
 package com.polytech.tp;
 
-public class CoursEnLigne extends CoursDecorator {
+public class CoursMagistral extends CoursDecorator {
 
-    public CoursEnLigne(ICours cours) {
+    public CoursMagistral(ICours cours) {
         super(cours);
     }
-   
+
     public String getDescription() {
-        return super.getDescription() + " (En ligne)";
+        return super.getDescription() + " (Magistral)";
     }
 
     public double getDuree() {
